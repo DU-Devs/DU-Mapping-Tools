@@ -14,5 +14,6 @@
 
 // BEGIN_INCLUDE
 #include "_DU-Mapping_Objects.dm"
-#include "test.dmm"
+#include "_Map 2018.dmm"
+#include "Space 2018.dmm"
 // END_INCLUDE

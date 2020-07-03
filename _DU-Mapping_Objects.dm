@@ -7,6 +7,32 @@ world
 	turf = /turf/Other/Blank
 	area = /area
 
+atom
+	var
+		Grabbable
+		Health
+		mob/Builder
+		FlyOverAble
+		BP
+		Bolted
+		can_blueprint
+		Can_Move
+		can_scrap
+		Cloakable
+		Dead_Zone_Immune
+		Double_Effectiveness
+		Knockable
+		Heals_Injuries
+		Nukable
+		Recovers_Energy
+		Savable
+		Max_BP
+		Max
+		Cost
+		can_be_renamed
+		Attackable
+		Grav_Cost
+		equalizer_dist
 
 area
 	icon = 'shapes.dmi'
@@ -558,6 +584,9 @@ obj
 
 		RoundTree
 
+		SmallPine
+			icon = 'tree small pine.png'
+
 		Small_Pine
 			icon = 'tree small pine.png'
 
@@ -660,6 +689,9 @@ obj
 			icon_state = "Closed"
 			density = 1
 			layer = 4.01
+			var
+				is_hbtc_door
+				Password
 
 			Door2
 				icon = 'Door2.dmi'
@@ -1448,6 +1480,10 @@ turf
 
 		Teleporter
 			density = 1
+			var
+				gotox
+				gotoy
+				gotoz
 
 	Tile10
 		icon = 'FloorsLAWL.dmi'
